@@ -30,7 +30,7 @@ class HomeScreen extends StatelessWidget {
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
       ),
-      // `builder` method to build the content of the bottom sheet
+      // `builder` function to build the content of the bottom sheet
       builder: (context) {
         return Padding(
           padding: const EdgeInsets.all(20),
